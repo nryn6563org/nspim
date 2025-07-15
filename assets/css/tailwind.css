@@ -1,0 +1,28 @@
+/* assets/styles/tailwind.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+*{
+  @apply antialiased font-spoqa !important
+}
+
+body{
+  @apply bg-[#f2f2f2] w-full p-4 pb-0
+}
+
+body.modal-open{
+  overflow:hidden;
+}
+
+#wrap{
+  @apply md:max-w-[425px] md:mx-auto shadow-bg
+}
+
+input{
+  @apply focus:outline-none active:outline-none hover:outline-none
+}
+
+table{
+  @apply border-separate !important
+}
