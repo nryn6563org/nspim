@@ -8,7 +8,7 @@
 }
 
 body{
-  @apply bg-[#f2f2f2] w-full p-4 pb-0
+  @apply bg-[#f2f2f2] w-full p-4 pb-[50px] 
 }
 
 body.modal-open{
@@ -16,7 +16,7 @@ body.modal-open{
 }
 
 #wrap{
-  @apply md:max-w-[425px] md:mx-auto shadow-bg
+  @apply md:max-w-[425px] md:mx-auto shadow-bg rounded-[0_0_15px_15px] overflow-hidden
 }
 
 input{

@@ -38,7 +38,7 @@
   @apply w-full
 }
 .quick_catch .chart-w{
-  @apply w-full rounded-[16px_16px_0_0] overflow-hidden
+  @apply w-full rounded-[15px_15px_0_0] overflow-hidden
 }
 .quick_catch .chart-w .top{
   @apply bg-[#1f1f32] w-full flex justify-between items-center h-[54px] px-4
@@ -63,7 +63,7 @@
 }
 
 .day_issue{
-  @apply w-full bg-white pt-6 pb-[40px]
+  @apply w-full bg-white py-6
 }
 .day_issue > .day{
   @apply w-[calc(100%-40px)] mx-auto
