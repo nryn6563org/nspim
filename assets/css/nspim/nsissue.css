@@ -140,7 +140,7 @@
 }
 
 .day_issue .issue_item{
-  @apply w-full p-[30px_20px_0px]
+  @apply w-full p-[30px_20px_0px] h-[332px]
 }
 .day_issue .issue_item .top{
   @apply w-full flex justify-between items-center px-2.5
